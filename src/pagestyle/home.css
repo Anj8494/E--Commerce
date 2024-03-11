@@ -1,14 +1,17 @@
-.container{
-    width: 120rem;
-    height: 30rem;
-    margin-top: 1rem;
+.container
+{
+  width: 120rem;
+  height: 30rem;
+  margin-top: 1rem;
 }
 
-.img{
-    width: 105rem;
-    height: 35rem;
+.img
+{
+  width: 105rem;
+  height: 35rem;
 }
-.overlay-text {
+.overlay-text
+ {
     font-family: poppine;
     width: 35rem;
     height: 23rem;
@@ -22,10 +25,10 @@
     font-size: 1.5rem; /* Adjust font size as needed */
     z-index: 1; /* Ensure text is above the image */
   }
-  .overlay-text h1{
+.overlay-text h1{
     color: #B88E2F; 
   }
-  .overlay-text .button{
+.overlay-text .button{
     width: 11rem;
     height: 3.5rem;
     background-color: #B88E2F;
@@ -38,9 +41,8 @@
     position: absolute;
     text-align: center;
     margin-top: 1rem;
-  }
-
-  .box-text{
+    }
+.box-text{
     width: 35rem;
     height: 8rem;
     margin-top: 7rem;
@@ -56,9 +58,30 @@
     font-size: 2rem;
     font-weight: 800;
   }
-  .box-text p{
+.box-text p{
     font-size: 1.3rem;
     font-weight: 200;
   }
 
+.browse-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 6rem;
+  margin-right: 4rem;
+}  
+
+.box-img{
+  height: 32rem;
+  margin-left: 2rem;
+}
+.browse-box h2{
+  text-align: center;
+}
+.our-product{
+  height: 20rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
