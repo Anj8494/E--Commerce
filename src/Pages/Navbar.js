@@ -1,6 +1,6 @@
 import {Link } from "react-router-dom";
 import navbar from '../pagestyle/navbar.css';
-import logo from '../image/logo.png';
+import logo from'../image/logo.png';
 import { AccountBoxOutlined,Search, ShoppingCart} from "@mui/icons-material";
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder'
 
@@ -11,7 +11,7 @@ const Navbar =()=>
     return<div class="nav-body">
         <nav class="body">
             <div class="nav-logo">
-                <img class="logo" src={logo} alt=""/>
+                <img class="logo" src="../image/logo.png" alt=""/>
             </div>
             <div class="nav-link">
                 <Link to="/" class="link">Home</Link>

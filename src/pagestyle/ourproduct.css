@@ -1,0 +1,30 @@
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: poppine;
+    /* justify-content: space-evenly; */
+
+}
+.box img{
+height: 25rem;
+width: 20rem;
+border-radius: 1rem;
+object-fit: fill;
+}
+ .h3{
+    justify-content: left;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
+.p{
+    justify-content: left;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+.span{
+    justify-content: left;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
