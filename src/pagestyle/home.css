@@ -1,14 +1,15 @@
 .container
 {
-  width: 120rem;
+  width: 80rem;
   height: 30rem;
   margin-top: 1rem;
 }
 
 .img
 {
-  width: 105rem;
+  width: 80rem;
   height: 35rem;
+  margin-left: 1rem;
 }
 .overlay-text
  {
@@ -24,6 +25,7 @@
     border-radius: 0.5rem;
     font-size: 1.5rem; /* Adjust font size as needed */
     z-index: 1; /* Ensure text is above the image */
+    margin-left: 80rem;
   }
 .overlay-text h1{
     color: #B88E2F; 
@@ -43,14 +45,13 @@
     margin-top: 1rem;
     }
 .box-text{
-    width: 35rem;
+    width: 25rem;
     height: 8rem;
     margin-top: 7rem;
     text-align: center;
     display: block;
     justify-content: center;
     align-items: center;
-    margin-left: 35rem;
     font-family: poppine;
   }
   .box-text h2{
@@ -112,7 +113,18 @@
   margin-top: 2rem;
 }
 .box-1{
-  width: 1200rem;
-  height: 90rem;
-  background-color: #395eaa;
+  width: 70rem;
+  height: 35rem;
+  background-color: #FCF8F3;
+  display: flex;
+  margin-top: 4rem;
+}
+.inspiration h3{
+  display: flex;
+  text-align: center;
+  width: 11rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

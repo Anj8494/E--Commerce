@@ -1,4 +1,4 @@
-import {Link } from "react-router-dom";
+import {Link, Outlet } from "react-router-dom";
 import navbar from '../pagestyle/navbar.css';
 import logo from'../image/logo.png';
 import { AccountBoxOutlined,Search, ShoppingCart} from "@mui/icons-material";
@@ -26,6 +26,7 @@ const Navbar =()=>
                 <FavoriteBorderIcon class="icon"/>
                 <ShoppingCart class="icon"/>
             </div>
+            <Outlet/>
         </nav>
     </div>
 }

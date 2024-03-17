@@ -1,3 +1,4 @@
+import { Grid } from '@mui/material';
 import home from '../pagestyle/home.css';
 import Navbar from './Navbar';
 import OurProduct from './OurProduct';
@@ -104,8 +105,12 @@ const Home = () => {
         <div class="button-box">
             <button>Show More</button>
         </div>
-       <div box-1>
-        hvhgdgdgcghgfhgvhhghj
+       <div class="box-1">
+        <div>
+        <div class="inspiration">
+            <h3>50+ Beautiful rooms <br/> inspiration</h3>
+        </div>
+        </div>
        </div>
     </div>
 }

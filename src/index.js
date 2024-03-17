@@ -18,13 +18,14 @@ root.render(
   // </React.StrictMode>
   <BrowserRouter>
   <Routes>
-      <Route path='/' element={<Home/>}>
+      <Route path='/' element={<Navbar/>}>
+      <Route index element={<Home/>}/>
       <Route path='shop' element={<Shop/>}/>
-      <Route path='/about' element={<About/>}/>
-      <Route path='/contact' element={<Contact/>}/>
-      <Route path='/blog' element={<Blog/>}/>
-      <Route path='/cart' element={<Cart/>}/>
-      <Route path='/footer' element={<Footer/>}/>
+      <Route path='about' element={<About/>}/>
+      <Route path='contact' element={<Contact/>}/>
+      <Route path='blog' element={<Blog/>}/>
+      <Route path='cart' element={<Cart/>}/>
+      <Route path='footer' element={<Footer/>}/>
       </Route>
   </Routes>
   </BrowserRouter>

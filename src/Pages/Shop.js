@@ -1,7 +1,9 @@
+import Navbar from "./Navbar";
+
 const Shop=()=>
 {
     return<div>
-        shop
+        
     </div>
 }
 export default Shop;
