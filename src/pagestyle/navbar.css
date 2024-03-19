@@ -1,36 +1,42 @@
-.nav-body{
-    width:90rem ;
-    height: 90px;
-    font-family: poppine;
-   background-color: #FFFFFF;
-}
 .body{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 70px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    margin-top: 0%;
+    padding-left: 0%;
+
 }
 
 .logo{
     margin-left: 54px;
-    width: 185px;
+    width: 10rem;
     height: 41px;
     margin-top: 29px;
     gap: 5px;
 }
 .nav-link{
-    width: 2500px;
-    height: 24px;
-    margin-top: 38px;
-    margin-left: 150px;
+  display: flex;
+  padding-top: 10px;
+  list-style: none;
 }
-.nav-link .link{
-   width: 48px;
-   height: 24px;
-   margin-top: 38px;
-   margin-left: 50px;
-   margin-right: 1.5rem;
-   font-size: 1.5rem;
-   font-weight: 600;
-   color: black;
-   text-decoration: none;
+.nav-link li {
+    margin-right: 40px;
+    color: black;
+    font-family: poppine;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.link-action {
+    text-decoration: none;
+}
+
+.link-action:hover{
+    border-bottom: 3px solid rgb(255,0,0);
+    color: black;
 }
 .icon{
     width: 40px;
@@ -40,7 +46,5 @@
 .icons-box{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin-top: 36px;
-    
+    margin-top: 2rem;   
 }

@@ -1,5 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+//import ReactDOM from 'react-dom/client';
+
+import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -18,17 +20,17 @@ root.render(
   // </React.StrictMode>
   <BrowserRouter>
   <Routes>
-      <Route path='/' element={<Navbar/>}>
-      <Route index element={<Home/>}/>
+      <Route path='/' element={<Home/>}>
+      <Route index element={<Shop/>}/>
       <Route path='shop' element={<Shop/>}/>
       <Route path='about' element={<About/>}/>
       <Route path='contact' element={<Contact/>}/>
       <Route path='blog' element={<Blog/>}/>
       <Route path='cart' element={<Cart/>}/>
-      <Route path='footer' element={<Footer/>}/>
       </Route>
   </Routes>
   </BrowserRouter>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function

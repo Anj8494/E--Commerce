@@ -18,13 +18,13 @@
     height: 23rem;
     position: absolute;
     top: 50%;
-    left: 70%;
-    transform: translate(-50%, -50%);
+    left: -50%;
+    /* transform: translate(30%, -50%); */
     background-color:#FFF3E3;   /* Add opacity to the background color */
     padding: 2rem;
     border-radius: 0.5rem;
     font-size: 1.5rem; /* Adjust font size as needed */
-    z-index: 1; /* Ensure text is above the image */
+    z-index: 1; 
     margin-left: 80rem;
   }
 .overlay-text h1{
@@ -111,20 +111,4 @@
 .button-box {
   margin-left: 46rem;
   margin-top: 2rem;
-}
-.box-1{
-  width: 70rem;
-  height: 35rem;
-  background-color: #FCF8F3;
-  display: flex;
-  margin-top: 4rem;
-}
-.inspiration h3{
-  display: flex;
-  text-align: center;
-  width: 11rem;
-  height: 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

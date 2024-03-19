@@ -11,7 +11,7 @@ const Home = () => {
         <div class="section-hero">
             <div class="container">
                 <div className="image-container">
-                    <img src="/image/homeback.png" alt="Background" class="img" />
+                    <img src="/image/homeback.png" alt="Background" class="img"/>
                     <div className="overlay-text">
                         <h3>New Arrival</h3>
                         <h1>Dicover Our<br />New Collection</h1>
@@ -105,13 +105,7 @@ const Home = () => {
         <div class="button-box">
             <button>Show More</button>
         </div>
-       <div class="box-1">
-        <div>
-        <div class="inspiration">
-            <h3>50+ Beautiful rooms <br/> inspiration</h3>
-        </div>
-        </div>
-       </div>
     </div>
+
 }
 export default Home;
